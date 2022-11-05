@@ -1,0 +1,59 @@
+.header {
+  max-width: 1280px;
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  padding: 36px 93px 25px 0px;
+}
+.img-header {
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0;
+}
+.logo {
+  padding: 36px 298px 25px 83px;
+  margin: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  align-self: center;
+}
+
+.search {
+  padding-left: 12px;
+  padding-right: 186px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #718096;
+}
+.articles {
+  padding: 3px 30px 2px 30px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+.twit {
+  padding: 0px 35px 0px 35px;
+}
+span {
+  align-self: center;
+}
+.img-search {
+  align-self: center;
+}
+.home {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}

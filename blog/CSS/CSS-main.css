@@ -1,0 +1,39 @@
+.head-section {
+  max-width: 1280px;
+  height: 467px;
+  background-color: #fbfbfb;
+}
+.img-head-section {
+  padding-top: 70px;
+  padding-left: 583px;
+}
+.title {
+  display: block;
+  position: absolute;
+  margin: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 73px;
+  padding-top: 130px;
+  padding-left: 130px;
+
+  width: 354px;
+}
+.cup-coffee {
+  position: absolute;
+  padding-right: 67px;
+  padding-bottom: 5px;
+}
+.subtitle {
+  position: absolute;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  color: #4a5568;
+  padding-top: 296px;
+  padding-left: 127px;
+}
