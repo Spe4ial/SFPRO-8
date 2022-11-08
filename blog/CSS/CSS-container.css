@@ -4,7 +4,7 @@
     grid-template-columns: repeat(3, 1fr);
     margin-left: 93px;
     margin-right:93px ;
-    place-content:;
+    
 }
 .text_title{
     font-family: 'Inter';

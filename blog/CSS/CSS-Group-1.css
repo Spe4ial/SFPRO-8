@@ -1,0 +1,25 @@
+.group-1{
+    display: flex;
+    background: #6B46C1;
+    border-radius: 5px;
+    flex-direction: row;
+    margin-top: 31px;
+    margin-right: 93px;
+    margin-left: 93px;
+    padding: 9px 11px;
+    max-width: 1280px;
+    position: absolute;
+    
+}
+.text-6{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+.text-6{
+    display: inline;
+    margin: 0 8px 0 ;
+}
