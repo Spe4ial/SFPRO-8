@@ -1,38 +1,22 @@
-.highlight-section{
+.highlightSection{
+    margin: 40px 93px;
     background: #F7FAFC;
     display: flex;
-    max-width: 1280px;
-    margin-left: 93px;
-    margin-right: 93px;
-    margin-top: 43px;
     justify-content: space-between;
 }
-.column{
+
+.contentHighlightSection{
     flex-direction: column;
-    margin-top: 98px;
-    margin-left: 63px;
-    margin-right: 66px;
+    margin: 100px 65px 120px;
 }
-.text-4{
-    font-family: 'Inter';
-    font-style: normal;
+
+.whatIsLoremIpsum{
     font-weight: 700;
     font-size: 40px;
-    line-height: 48px;
-    margin-bottom: 24px;
-    
+    line-height: 48px; 
 }
-.text-5{
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    margin-bottom: 31px;
-}
+
 .read{
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 700;
     font-size: 12px;
     line-height: 15px;

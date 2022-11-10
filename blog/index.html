@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="CSS/CSS-header.css" rel="stylesheet" type="text/css" />
-    <link href="CSS/CSS-main.css" rel="stylesheet" type="text/css" />
-    <link href="CSS/CSS-section-1.css" rel="stylesheet" type="text/css" />
+    <link href="CSS/CSS-head-section.css" rel="stylesheet" type="text/css" />
+    <link href="CSS/CSS-card-latest.css" rel="stylesheet" type="text/css" />
     <link href="CSS/CSS-container.css" rel="stylesheet" type="text/css" />
     <link href="CSS/CSS-highlight-section.css" rel="stylesheet" type="text/css" />
-    <link href="CSS/CSS-Group-1.css" rel="stylesheet" type="text/css" />
+    <link href="CSS/CSS-group-1.css" rel="stylesheet" type="text/css" />
     <link href="CSS/CSS-footer.css" rel="stylesheet" type="text/css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
@@ -17,109 +17,114 @@
     />
     <title>Document</title>
   </head>
-  <body>
+  <body class="body">
     <header class="header">
-      <h1 class="logo">HotCoffee</h1>
-      <div class="nav">
+      <h1 class="hotCoffee">HotCoffee</h1>
+      <div class="navigation">
         <img
-          class="img-search"
+          class="search-line"
           width="20px"
           height="20px"
-          src="img/Search.svg"
+          src="img/Search.svg" alt="Search"
         />
-        <span class="search">Search...</span>
-        <span class="home">Home</span>
-        <span class="articles">Articles</span>
-        <ul class="img-header">
-          <img width="20px" height="20px" src="img/Instagram.svg" />
-          <img class="twit" width="20px" height="20px" src="img/Twitter.svg" />
-          <img width="20px" height="20px" src="img/Linkedin.svg" />
-        </ul>
+        <p class="search">Search...</p>
+        <p class="home">Home</p>
+        <p class="articles">Articles</p>
+        <div class="imgSocial">
+          <img width="20px" height="20px" src="img/Instagram.svg" alt="Instagram" />
+          <img class="twit" width="20px" height="20px" src="img/Twitter.svg" alt="Twitter" />
+          <img width="20px" height="20px" src="img/Linkedin.svg" alt="Linkedin" />
+        </div>
       </div>
     </header>
     <main>
-      <div class="head-section">
+      <div class="headSection">
         <div>
-          <h1 class="title">
+          <h1 class="makeBetterCoffee">
             Make better coffee<img
-              class="cup-coffee"
+              class="cupCoffee"
               width="70px"
               height="70px"
-              src="img/CupCoffee.svg"
+              src="img/CupCoffee.svg" alt="Cup Coffee"
             />
           </h1>
-          <span class="subtitle">why learn how to blog?</span>
+          <p class="whyLearnHowToBlog">why learn how to blog?</p>
         </div>
         <img
-          class="img-head-section"
+          class="croods"
           width="476px"
           height="323px"
           src="img/HeadSection.svg"
         />
       </div>
-      <div class="section_1">
-        <div class="leftColumn">
-          <p class="text_1">long established</p>
-          <p class="text_2">It is a long established fact that a reader will be distracted<br> by the readable content of a page when looking at its layout.<br> The point of using Lorem Ipsum is that....</p>
-          <div class="line">
-            <p class="text_3">May 20th 2020</p>
-            <button class="button_read">Read more</button>
+      <div class="cardLatest">
+        <div class="contentCardLatest">
+          <p class="longEstablished">long established</p>
+          <p class="itIsALongEstablishedFact">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that....</p>
+          <div class="dateReadMore">
+            <p class="date">May 20th 2020</p>
+            <p class="readMore">Read more</p>
           </div>
         </div>
-        <img height="243px" src="img/ManWithNotebook.png">
+        <img class="ManWithNotebook" src="img/ManWithNotebook.png" alt="ManWithNotebook ">
       </div>
       <div class="container">
         <div class="box-1">
-          <img src="img/NotebookBox1.png">
-          <p class="text_title">long established</p>
-          <p class="text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that....</p>
-          <div class="line_box">
-            <p class="text_3">May 20th 2020</p>
-            <button class="button_read">Read more</button>
+          <img src="img/NotebookBox1.png" alt="NotebookBox1">
+          <div class="contentBox">
+            <p class="longEstablished_2">long established</p>
+            <p class="itIsALongEstablishedFact">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that....</p>
+            <div class="dateReadMore">
+              <p class="date">May 20th 2020</p>
+              <p class="readMore">Read more</p>
+            </div>
           </div>
         </div>
         <div class="box-2">
-          <img src="img/PeopleBox2.png">
-          <p class="text_title">long established</p>
-          <p class="text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that....</p>
-          <div class="line_box">
-            <p class="text_3">May 20th 2020</p>
-            <button class="button_read">Read more</button>
+          <img src="img/PeopleBox2.png" alt="PeopleBox2">
+          <div class="contentBox">
+            <p class="longEstablished_2">long established</p>
+            <p class="itIsALongEstablishedFact">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that....</p>
+            <div class="dateReadMore">
+              <p class="date">May 20th 2020</p>
+              <p class="readMore">Read more</p>
+            </div>
           </div>
         </div>
         <div class="box-3">
-          <img src="img/NotebookBox3.png">
-          <p class="text_title">long established</p>
-          <p class="text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that....</p>
-          <div class="line_box">
-            <p class="text_3">May 20th 2020</p>
-            <button class="button_read">Read more</button>
+          <img src="img/NotebookBox3.png" alt="NotebookBox3">
+          <div class="contentBox">
+            <p class="longEstablished_2">long established</p>
+            <p class="itIsALongEstablishedFact">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that....</p>
+            <div class="dateReadMore">
+              <p class="date">May 20th 2020</p>
+              <p class="readMore">Read more</p>
+            </div>
           </div>
         </div>       
       </div>
-      <div class="highlight-section">
-        <div class="column">
-          <p class="text-4">What is Lorem Ipsum?</p>
-          <p class="text-5">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution...</p>
-          <div class="line">
-            <p class="text_3">May 20th 2020</p>
-            <button class="read">Read more</button>
+      <div class="highlightSection">
+        <div class="contentHighlightSection">
+          <p class="whatIsLoremIpsum">What is Lorem Ipsum?</p>
+          <p class="itIsALongEstablishedFact">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution...</p>
+          <div class="dateReadMore">
+            <p class="date">May 20th 2020</p>
+            <p class="read">Read more</p>
           </div>
         </div>
         <img src="img/img-highlight-section.png"">
       </div>
       <div class="group-1">
-        <p class="text-6">See more</p>
+        <p class="seeMore">See more</p>
         <img src="img/ArrowDown.svg">
       </div>
     </main>
     <footer class="footer">
-      
-      <p class="text-7">hotcoffee 2020 copyright all rights reserved</p>
-      <ul class="img-footer">
-        <img width="20px" height="20px" src="img/Instagram.svg" />
-        <img class="twit" width="20px" height="20px" src="img/Twitter.svg" />
-        <img width="20px" height="20px" src="img/Linkedin.svg" />
+      <p class="hotCoffee2020">hotcoffee 2020 copyright all rights reserved</p>
+      <ul class="imgSocialFooter">
+        <img width="20px" height="20px" src="img/Instagram.svg" alt="Instagram" />
+        <img class="twit" width="20px" height="20px" src="img/Twitter.svg" alt="Twitter" />
+        <img width="20px" height="20px" src="img/Linkedin.svg" alt="Linkedin" />
       </ul>
     </footer>
   </body>

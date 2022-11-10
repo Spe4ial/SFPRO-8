@@ -1,21 +1,15 @@
 .footer{
     border-top: 1px solid #E8E8E8;
     margin-top: 43px;
+    padding: 0 93px 70px;
     display: flex;
     flex-direction: row;
     justify-content: space-between ;
-    padding-top: 30px;
 }
 
-.text-7{
-    margin-left: 93px;
-    font-family: 'Inter';
-    font-style: normal;
+.hotCoffee2020{
     font-weight: 700;
     font-size: 16px;
     line-height: 19px;
     color: #000000;
-}
-.img-footer{
-    margin-right: 93px;
 }
