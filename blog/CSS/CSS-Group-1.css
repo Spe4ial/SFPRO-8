@@ -1,0 +1,15 @@
+.group-1{
+    display: flex;
+    background: #6B46C1;
+    border-radius: 5px;
+    flex-direction: row;
+    padding: 9px 11px;
+    margin: 0px 93px;
+}
+.seeMore{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin-right: 8px;
+}

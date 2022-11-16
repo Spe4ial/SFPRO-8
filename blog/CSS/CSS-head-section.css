@@ -1,0 +1,24 @@
+.headSection {
+  display: flex;
+  flex-direction: row;
+  background-color: #fbfbfb;
+  padding: 70px 93px;
+}
+
+.makeBetterCoffee {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 73px;
+
+}
+
+.whyLearnHowToBlog {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  color: #4a5568;
+}
+
+.croods{
+  padding-left: 100px;
+}
