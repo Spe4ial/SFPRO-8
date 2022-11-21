@@ -1,53 +1,58 @@
-.cardLatest{
-    display: flex;
-    margin: 40px 93px;
-    padding-left: 53px;
-    box-sizing: border-box;
-    border: 1px solid #E2E2E2;
-    box-shadow: 0px 5px 4px rgba(221, 221, 221, 0.25);
-    border-radius: 5px;
-    background: #FFFFFF;
+.cardLatest {
+  display: flex;
+  margin: 40px 93px;
+  padding-left: 53px;
+  box-sizing: border-box;
+  border: 1px solid #e2e2e2;
+  box-shadow: 0px 5px 4px rgba(221, 221, 221, 0.25);
+  border-radius: 5px;
+  background: #ffffff;
 }
 
-.contentCardLatest{
-    margin: 40px 0px;
+.contentCardLatest {
+  margin: 40px 0px;
 }
 
-.longEstablished{
-    margin-top: 0;
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 36px;
-    color: #2D3748;
+.longEstablished {
+  margin-top: 0;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #2d3748;
 }
-.itIsALongEstablishedFact{
-    margin-bottom: 30px;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
-    color: #718096;
-}
-
-.date, .readMore{
-    font-size: 12px;
-    line-height: 15px;
+.itIsALongEstablishedFact {
+  margin-bottom: 30px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #718096;
 }
 
-.date{
-    font-weight: 400;
-    color: #718096;
-}
-.readMore{
-    font-weight: 700;
-    color: #2D3748;
-    border: none;
-    background-color: white;   
-}
-.dateReadMore{
-    display: flex;
-    justify-content: space-between; 
+.date,
+.readMore {
+  font-size: 12px;
+  line-height: 15px;
 }
 
-.ManWithNotebook{
-    margin-left: 77px;
+.date {
+  font-weight: 400;
+  color: #718096;
+}
+.readMore {
+  font-weight: 700;
+  color: #2d3748;
+  border: none;
+  background-color: white;
+}
+.dateReadMore {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ManWithNotebook {
+  margin-left: 77px;
+}
+
+.clickable:hover {
+  cursor: pointer;
 }

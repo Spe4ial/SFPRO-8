@@ -1,15 +1,23 @@
-.footer{
-    border-top: 1px solid #E8E8E8;
-    margin-top: 43px;
-    padding: 0 93px 70px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between ;
+.footer {
+  border-top: 1px solid #e8e8e8;
+  margin-top: 43px;
+  padding: 0 93px 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-.hotCoffee2020{
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 19px;
-    color: #000000;
+.hotCoffee2020 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.ref {
+  text-decoration: none;
+}
+
+.clickable:hover {
+  cursor: pointer;
 }
